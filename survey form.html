@@ -1,0 +1,36 @@
+  <h1 id="title">Survey form</h1>
+  <p id="description">This is a brief survey of general personal information</p>
+  <form id="survey-form">
+    <label id="name-label">
+      <span class="bold">Name</span> <br/> <input type="text" id="name" placeholder="Enter your name" required />
+    </label>
+    <label id="email-label"><br/>
+      <span class="bold">Email</span> <br/> <input type="email" id="email" placeholder="someone@domain.com" required />
+    </label>
+    <label id="number-label"><br/>
+      <span class="bold">Age</span> <br/> <input id="number" type="number" min="0" max="5" placeholder="Your age" />
+    </label><br/>
+    <span class="bold">Your current occupation</span><br/>
+    <select id="dropdown">
+      <option>Student</option>
+      <option>Developer</option>
+      <option>Data Scientist</option>
+      <option>Cloud Practitioner</option>
+      <option>Other</option>
+    </select><br/>
+    <span class="bold">How did you hear about freeCodeCamp?</span><br/>
+    <input type="radio" name="hear" value="googlesearch" /> Google search<br/>
+    <input type="radio" name="hear" value="youtube" /> Youtube<br/>
+    <input type="radio" name="hear" value="website" /> Our website<br/>
+    <input type="radio" name="hear" value="friend" /> Friend/colleague<br/>
+    <input type="radio" name="hear" value="other" /> Other<br/>
+   <span class="bold">Would you recommend freeCodeCamp to a friend?</span><br/>
+    <input type="checkbox" name="recommendation" value="yes"/> Absolutely<br/>
+    <input type="checkbox" name="recommendation" value="maybe" /> Maybe<br/>
+    <span class="bold">Kindly leave a message</span><br/> 
+    <textarea placeholder="Feel free to share your thoughts here!"></textarea><br/>
+    <button id="submit">Submit</button>
+    </form>
+    <footer class="footer">
+     This is a simple form designed by Mutaganzwa Gift Desire just for educational purposes.
+    </footer>
